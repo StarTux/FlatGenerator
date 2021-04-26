@@ -1,0 +1,28 @@
+main: com.cavetale.flatgenerator.FlatGeneratorPlugin
+load: STARTUP
+
+name: FlatGenerator
+version: 0.1
+description: Generate a flat world at sea level
+api-version: 1.13
+
+author: StarTux
+website: https://github.com/StarTux/FlatGenerator
+
+depend: []
+softdepend: []
+
+commands:
+
+  flatgenerator:
+    aliases: []
+    description: FlatGenerator Command
+    permission: flatgenerator.flatgenerator
+    usage: |-
+      /flatgenerator
+
+permissions:
+
+  flatgenerator.flatgenerator:
+    description: Use /flatgenerator
+    default: op
