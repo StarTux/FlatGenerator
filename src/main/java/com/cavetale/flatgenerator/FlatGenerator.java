@@ -58,11 +58,6 @@ public final class FlatGenerator extends ChunkGenerator {
     }
 
     @Override
-    public boolean shouldGenerateBedrock() {
-        return false;
-    }
-
-    @Override
     public boolean shouldGenerateCaves() {
         return false;
     }
