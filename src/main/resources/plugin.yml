@@ -4,7 +4,7 @@ load: STARTUP
 name: FlatGenerator
 version: 0.1
 description: Generate a flat world at sea level
-api-version: '1.21'
+api-version: '1.21.8'
 
 author: StarTux
 website: https://github.com/StarTux/FlatGenerator
